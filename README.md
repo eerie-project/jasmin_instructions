@@ -24,7 +24,7 @@ Please follow the instructions at http://help.jasmin.ac.uk/article/189-get-start
 
 * At step 4, applying for the jasmin-login role, you should include the email addresses of Malcolm Roberts and Jon Seddon who will provide you with a reference to support your application.
 * At step 5 you should apply for access to the ["eerie" Group Workspace](https://accounts.jasmin.ac.uk/services/group_workspaces/eerie/) and ["eerie-o" object store](https://accounts.jasmin.ac.uk/services/object_store/eerie-o/). 
-* To access data that has already been published to the ESGF, for example the EERIE simulations or CMIP6-HighResMIP data, you will also need to [register for a CEDA account](​http://www.ceda.ac.uk/) and link this to your [JASMIN account](​https://accounts.jasmin.ac.uk/account/profile/).
+* To access data that has already been published to the ESGF, for example the EERIE simulations or CMIP6-HighResMIP data, you will also need to [register for a CEDA account](https://services.ceda.ac.uk/cedasite/myceda/user) and link this to your [JASMIN account](​https://accounts.jasmin.ac.uk/account/profile/).
 
 ### Accessing your JASMIN account
 
@@ -34,7 +34,7 @@ Please follow the instructions at https://help.jasmin.ac.uk/article/187-login to
 
 The JASMIN storage is summarised in the [JASMIN help system](https://help.jasmin.ac.uk/article/176-storage). EERIE users will have access to the following forms of storage:
 
-* 100 GB of [home directory](https://help.jasmin.ac.uk/article/176-storage#home) at `/home/users/<username>`, which is the only storage that is backed up.The home directory has snapshots enabled to allow for the quick recovery of deleted files. Important results should be stored in your home directory.
+* 100 GB of [home directory](https://help.jasmin.ac.uk/article/176-storage#home) at `/home/users/<username>`, which is the only storage that is backed up. The home directory has snapshots enabled to allow for the quick recovery of deleted files. Important results should be stored in your home directory.
 
 * [temporary scratch storage ](https://help.jasmin.ac.uk/article/176-storage#disktemp) for the storage of large files that are being actively analysed. Data on the scratch storage that is older than 28 is automatically deleted.
 
@@ -42,9 +42,9 @@ The JASMIN storage is summarised in the [JASMIN help system](https://help.jasmin
 
 * there is 100 GB of fast solid state disk (SSD) storage that is available at `/gws/smf/j04/eerie`. This SSD is ideal for storing software on. Please contact Jon Seddon if you would like some software to be installed here.
 
-* the CEDA archive is available at `/badc`. The archive contains a range of observation and reanalysis datasets along with CMIP6 data that is available at CEDA's ESGF node. EERIE data that has been published to, or repliacted to, CEDA's ESGF node will be available at `/badc/cmip6`.
+* the CEDA archive is available at `/badc`. The archive contains a range of observation and reanalysis datasets along with CMIP6 data that is available at CEDA's ESGF node. EERIE data that has been published to, or replicated to, CEDA's ESGF node will be available at `/badc/cmip6`.
 
-* EERIE has 50 TB of [object storage](https://help.jasmin.ac.uk/article/4847-using-the-jasmin-object-store). The object store is only available internally at JASMIN and is not available externally of JASMIN.
+* EERIE has 50 TB of [object storage](https://help.jasmin.ac.uk/article/4847-using-the-jasmin-object-store). The object store is only available internally at JASMIN and is not available externally to JASMIN.
 
 ### Extra services
 
@@ -61,4 +61,4 @@ JASMIN has fast network access to the UK's Janet network and from there to the G
 
 Initially, please check the existing documentation at https://help.jasmin.ac.uk/
 
-If the documentation does not help then please either ask for informal help from another member of the EERIE project (Jon Seddon has much previous experience of using JASMIN) or contact JASMIN support by clicking on the big blue question mark (?) button at the bottom of https://help.jasmin.ac.uk/.
+If the documentation does not help then please either ask for informal help from another member of the EERIE project (Jon Seddon has much previous experience of using JASMIN) or contact JASMIN support by clicking on the big blue question mark "?" button at the bottom of https://help.jasmin.ac.uk/.
