@@ -8,6 +8,7 @@ EERIE users have access to the following facilities at JASMIN:
 * 50 TB of [object store](https://help.jasmin.ac.uk/article/4847-using-the-jasmin-object-store)
 * [interactive analysis servers](https://help.jasmin.ac.uk/article/121-sci-servers)
 * [LOTUS batch cluster](https://help.jasmin.ac.uk/category/4889-slurm) - 19,000 core batch computing system
+* [Orchid GPU cluster](https://help.jasmin.ac.uk/article/5068-gpu-cluster-orchid) - 14 node GPU cluster availble through the SLURM scheduler and one interactive GPU node
 * [Jupyter Notebook service](https://help.jasmin.ac.uk/article/4851-jasmin-notebook-service)
 * [transfer servers](https://help.jasmin.ac.uk/category/217-data-transfer)
 * [scientific software](https://help.jasmin.ac.uk/category/270-software-on-jasmin)
