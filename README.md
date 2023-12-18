@@ -52,7 +52,7 @@ The JASMIN storage is summarised in the [JASMIN help system](https://help.jasmin
 
 * for interactive analysis the [scientific analysis servers](https://help.jasmin.ac.uk/article/121-sci-servers) are a great way to get started at JASMIN, or to develop and test analysis software or scripts that will be run on LOTUS.
 
-* the [LOTUS batch cluster](https://help.jasmin.ac.uk/category/4889-slurm) is designed for the analysis of large volumes of data. LOTUS contains the same software stacks and storage as the analysis servers and jobs can be submitted to teh cluster using the SLURM scheduler.
+* the [LOTUS batch cluster](https://help.jasmin.ac.uk/category/4889-slurm) is designed for the analysis of large volumes of data. LOTUS contains the same software stacks and storage as the analysis servers and jobs can be submitted to the cluster using the SLURM scheduler.
 
 * the [Jupyter Notebook service](https://help.jasmin.ac.uk/article/4851-jasmin-notebook-service) provides access to a Python environment through a web browser. The Notebook service has read-only access to the EERIE GWS and the CEDA archive, but does not have access to the scratch storage. The Notebook service may be particularly useful during hackathons but unlike the equivalent service at other institutes, it has more limited compute resources available to it for data analysis. Therefore, the Notebook service is useful for the interactive viewing of data, but LOTUS or the analysis servers should be used for the analysis of large volumes of data.
 
