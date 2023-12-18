@@ -40,17 +40,21 @@ The JASMIN storage is summarised in the [JASMIN help system](https://help.jasmin
 
 * there is a single 250 TB allocation of group workspace (GWS) for the EERIE project at `/gws/nopw/j04/eerie`. This GWS will be used to hold the model output data that is required for analysis. Data will be written to it using the Data Management Tool, a web based catalogue of EERIE model data. If this GWS becomes full then all EERIE users will be unable to work and so we must be very careful what data is written to the GWS.
 
+* files in the `/gws/nopw/j04/eerie/public` directory of the EERIE GWS are available via password protected HTTPS at https://gws-access.jasmin.ac.uk/public/eerie/. All model output will be stored in this area to make it available by HTTPS. Please contact Jon Seddon or the other WP3 leads for the username and password. Please see https://help.jasmin.ac.uk/article/202-share-gws-data-via-http for more details. The performance of this HTTPS access is limited and so it is recommended that the data is accessed from the Jupyter Notebook service, the interactive analysis servers or the LOTUS batch cluster for best performance.
+
 * there is 100 GB of fast solid state disk (SSD) storage that is available at `/gws/smf/j04/eerie`. This SSD is ideal for storing software on. Please contact Jon Seddon if you would like some software to be installed here.
 
 * the CEDA archive is available at `/badc`. The archive contains a range of observation and reanalysis datasets along with CMIP6 data that is available at CEDA's ESGF node. EERIE data that has been published to, or replicated to, CEDA's ESGF node will be available at `/badc/cmip6`.
 
 * EERIE has 50 TB of [object storage](https://help.jasmin.ac.uk/article/4847-using-the-jasmin-object-store). The object store is only available internally at JASMIN and is not available externally to JASMIN.
 
-### Extra services
+### Analysis services
 
-The [Jupyter Notebook service](https://help.jasmin.ac.uk/article/4851-jasmin-notebook-service) provides access to a Python environment through a web browser. The notebook service can read data from the EERIE GWS and the CEDA archive. The notebook service may be useful during hackathons.
+* for interactive analysis the [scientific analysis servers](https://help.jasmin.ac.uk/article/121-sci-servers) are a great way to get started at JASMIN, or to develop and test analysis software or scripts that will be run on LOTUS.
 
-Files can be made available for pubic download from the EERIE GWS via password protected [HTTP data sharing](https://help.jasmin.ac.uk/article/202-share-gws-data-via-http). Please contact Jon Seddon for more details on this facility.
+* the [LOTUS batch cluster](https://help.jasmin.ac.uk/category/4889-slurm) is designed for the analysis of large volumes of data. LOTUS contains the same software stacks and storage as the analysis servers and jobs can be submitted to teh cluster using the SLURM scheduler.
+
+* the [Jupyter Notebook service](https://help.jasmin.ac.uk/article/4851-jasmin-notebook-service) provides access to a Python environment through a web browser. The Notebook service has read-only access to the EERIE GWS and the CEDA archive, but does not have access to the scratch storage. The Notebook service may be particularly useful during hackathons but unlike the equivalent service at other institutes, it has more limited compute resources available to it for data analysis. Therefore, the Notebook service is useful for the interactive viewing of data, but LOTUS or the analysis servers should be used for the analysis of large volumes of data.
 
 ### Data Transfer
 
